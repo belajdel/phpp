@@ -1,0 +1,30 @@
+﻿header{
+	background-color: #11abf33f;
+}
+
+nav {
+	background-color: #d9f0f5;
+	width: 30%;
+	height: 480px;
+	float: left;
+}
+section {
+	background-color: #eafafa;
+	width: 70%;
+	height: 480px;
+	float: left;
+}
+iframe {
+	width: 99%;
+	height: 470px;
+}
+h1{
+	text-align:center;
+}
+h1:hover{
+	color:blue;
+}
+.c1{
+	background-color: yellow;
+	font-size: 16px;
+}

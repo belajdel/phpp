@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="messtyles.css">
+    <script src="controles.js"></script>
+
+</head>
+<body>
+  <fieldset>
+    <legend>Evaluation d'un modèle</legend>
+    <form " onsubmit="return verif2()">
+        <label for="">N° Permis</label>
+            <input type="text" class="c1" name="npermis" id="npermis">
+        <label for="">Modèle testé</label>
+        <select name="model" id="model">
+            <option value="">Choisir un modèle</option>
+            <option value="15">Wallis IRIS</option>
+            <option value="26">Wallis 619</option>
+            <option value="38">Wallis 216</option>
+        </select><br>
+        <label for="">Notes attribuées : </label><br>
+        <label for="">Securité : </label><input type="text" class="c1" name="securite" id="securite"><br>
+        <label for="">Conduite : </label><input type="text" class="c1" name="conduite" id="conduite"><br>
+        <label for="">Confort : </label><input type="text" class="c1" name="confort" id="confort"><br>
+        <label for="">je ne suis pas un robot</label>
+        <input type="checkbox" name="robot" id="robot"><br>
+        <input type="reset" value="Annuler">
+        <input type="submit" value="Valider">
+    </form>
+  </fieldset>  
+</body>
+</html>
